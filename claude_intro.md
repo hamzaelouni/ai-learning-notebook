@@ -64,6 +64,8 @@ Claude
             when to use a skill, especially when you've got similar Skills available.
             ![img.png](img.png)
             ![img_2.png](img_2.png)
+            ![img_3.png](img_3.png)
+            ![img_4.png](img_4.png)
   
 - `SKILL.md`: SKILL.md files only need to have two things, a block of text at the top in this format 
               and instructions underneath in the Markdown format. 
@@ -76,6 +78,10 @@ Claude
               Claude will either miss opportunities to use it or will use it at the wrong time.
               the name can't be more than 64 characters, and the description maxes out at 1,024 characters. 
               A name and description are always required, but every other field in the Frontmatter section is optional
+
+- `Organize Skills by Task`:  it's more efficient to make Skills task‑focused instead of topic‑focused.
+                              Good skill instructions answer one question. When someone asks Claude to do X, 
+                              what specific steps should it follow, and what should the output look like?
 
 ![img_1.png](img_1.png)
             
